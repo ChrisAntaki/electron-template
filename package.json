@@ -4,7 +4,7 @@
   "scripts": {
     "start": "yarn electron --dev",
     "electron": "electron .",
-    "package": "electron-packager --overwrite --icon=images/logo.ico ."
+    "package": "electron-packager --overwrite --icon=images/logo.png ."
   },
   "devDependencies": {
     "electron": "^9.0.0",

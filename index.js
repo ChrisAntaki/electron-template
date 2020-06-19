@@ -14,7 +14,7 @@ app.whenReady().then(() => {
       nodeIntegration: true,
     },
     autoHideMenuBar: true,
-    icon: __dirname + "/images/logo.ico",
+    icon: __dirname + "/images/logo.png",
   });
 
   // and load the HTML of the app.
