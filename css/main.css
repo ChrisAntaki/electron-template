@@ -1,0 +1,13 @@
+html {
+  background-image: linear-gradient(15deg, #09f, #0f9);
+  color: #fff;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 42px;
+  font-weight: bold;
+  min-height: 100%;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 1);
+}
+
+body {
+  text-align: center;
+}

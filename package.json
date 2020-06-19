@@ -1,0 +1,17 @@
+{
+  "name": "hello-world",
+  "private": true,
+  "scripts": {
+    "start": "yarn electron --dev",
+    "electron": "electron .",
+    "package": "electron-packager --overwrite --icon=images/logo.ico ."
+  },
+  "devDependencies": {
+    "electron": "^9.0.0",
+    "electron-packager": "^14.2.1",
+    "electron-reload": "^1.5.0"
+  },
+  "dependencies": {
+    "localforage": "^1.7.3"
+  }
+}
