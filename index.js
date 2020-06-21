@@ -1,4 +1,4 @@
-const { app, BrowserWindow, screen } = require("electron");
+const { app, BrowserWindow, shell } = require("electron");
 
 try {
   // Reload browser windows on changes.
@@ -19,4 +19,10 @@ app.whenReady().then(() => {
 
   // and load the HTML of the app.
   win.loadFile("html/index.html");
+
+  // Open new windows in the main browser.
+  win.webContents.on("new-window", (e, url) => {
+    e.preventDefault();
+    shell.openExternal(url);
+  });
 });
